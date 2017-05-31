@@ -6,3 +6,34 @@ How is the staging area different from the working directory and the
 repository? What value do you think it offers?  
 	Staging simply area to initially add files to single commit versus workingD..
 and repo where can edit files.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	 By typing: git diff --staged, you'll see changes between staging
+area(file(s)) and committed file(s).
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+	Situation examples include experimental changes, different language
+versions. Branches help by keeping main "Master" branch intact, able to be
+merged later with changed branch or just revert to it(Master) for stable
+working copy.
+	
+
+How do the diagrams help you visualize the branch structure?
+	Seeing parents of each commit and branches' ancestry helps explain
+revision history.
+ 
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+	Result is sum of all changes made in each branch in the checked-out
+branch.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+	Pros -Duh, auto could save lots of work/time. Con is auto merge might
+not be what was intended (added/removed parts).
+
+
