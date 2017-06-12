@@ -19,6 +19,16 @@ stored locally?
 To potentially work offline for a while (plane) having latest and greatest
 committed changes to work with.
 
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+Discussing in-person with others changes being made collaboratively. Could
+also have shared (lockable) shared file with proposed changes. Easier with
+smaller file library and small number of people if in same location and
+cooperative with one another. Harder to manager bigger, more spread out
+(geographically) users and code base.
+
+
+
 
 
 
