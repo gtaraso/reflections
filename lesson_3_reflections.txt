@@ -27,6 +27,15 @@ smaller file library and small number of people if in same location and
 cooperative with one another. Harder to manager bigger, more spread out
 (geographically) users and code base.
 
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+In separate branch when collaborating and might do a pull-request to the other
+user(s). Also might use separate when going offline or trying experimental
+changes from a working staring point (latest origin-master). 
+Can use master when on small project by yourself (no collaboration). This
+requires less steps since not colloborating with others and don't need
+input when making changes to shared code.
+
 
 
 
